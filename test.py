@@ -30,6 +30,8 @@ dataframe = pd.read_csv("output.txt")
 count = dataframe.groupby("text").size()
 
 
+
+
 assert count.loc["AD-HOC QUERIES"] == 3
 assert count.loc["AGRICULTURAL PRODUCTION"] == 1
 assert count.loc["AIRLINE COMPANIES"] == 1

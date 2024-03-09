@@ -84,7 +84,6 @@ def main(input_file, output_file, n=2):
 
 
 
-
 if __name__ == "__main__":
     main(
         input_file="input.txt",
